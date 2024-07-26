@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#0E0F11] p-4 px-5 text-white lg:max-w-[1280px] mx-auto">
+    <!-- navbar -->
+    <nav class="flex items-center justify-between mb-8">
+      <div class="logo">Blay.</div>
+
+      <div class="flex gap-5 items-center hidden md:flex">
+        <a href="#">Services</a>
+        <a href="#">Work</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <button
+        class="hidden md:flex px-5 py-1 rounded-full bg-[#D0FF71] text-black"
+      >
+        Buy me jollof 🍛
+      </button>
+      <button class="menu md:hidden">
+        <img src="images/menu-icon.svg" alt="menu" />
+      </button>
+    </nav>
+    <!-- navbar ends -->
+
+    <main>
+      <section class="hero-section md:flex md:flex-row-reverse">
+        <!-- hero image  -->
+        <div class="hero-image md:-ml-32">
+          <img src="images/hero-image.png" alt="hero-image" />
+        </div>
+
+        <!-- hero text title -->
+        <div class="hero-text mt-5 md:flex md:flex-col justify-between">
+          <h1
+            class="hero-title text-4xl font-medium mt-10 lg:mt-16 bg-[#0E0F11] z-10 md:py-5 md:px-4 md:pl-0 md: rounded-4xl"
+          >
+            <span class="read-container flex mb-3 md:inline-flex md:mb-0">
+              <span
+                class="flex items-center text-sm gap-1 mr-4 text-gray-400 inline-flex"
+                ><span class="size-2 rounded-full bg-[#D0FF71]"></span>1 min
+                read</span
+              >
+            </span>
+
+            Blab #13: Navigating Website Ux Podcast
+          </h1>
+
+          <!-- Post author -->
+          <div class="gap-3 flex mt-5">
+            <div class="image">
+              <img src="images/user.png" alt="user-profile" />
+            </div>
+
+            <div class="author-info">
+              <small>Written by</small>
+              <p>Kewa Blay</p>
+              <small>Co-founder</small>
+            </div>
+          </div>
+        </div>
+        <!-- Post text ends -->
+      </section>
+
+      <!-- main blog section  -->
+      <section
+        class="section bg-[#101115] mt-10 p-5 pt-10 -mx-5 md:mx-0 border-t border-t-[#454545]"
+      >
+        <h2 class="text-2xl mb-4 font-medium">
+          <span class="mb-4 flex md:inline-flex md:mb-0 text-sm">
+            <span class="px-4 py-1 rounded-full bg-[#1A1B1E] mr-5 text-white">
+              27 July 2024</span
+            >
+          </span>
+          Looking at the many faces of website user experience
+        </h2>
+
+        <p>
+          I was invited along to the latest Marketing Blabs Podcast as a special
+          guest. In this episode we look at the many faces of website user
+          experience – What's important? What's Trending? And what's outright
+          unnecessary? Whether you're a website design specialist or a start-up
+          novice, this episode is filled with helpful tips and guidance. On this
+          Blab: Andy Golpys (MadeByShape), Tom Haslam (Host), Matt Janaway and
+          Josh Stapleton from
+        </p>
+
+        <h3 class="my-4 text-xl font-medium">
+          Invite me along to your podcast, go on - I dares ya
+        </h3>
+        <p>
+          I'd love to be involved in more podcasts, so if you're a host and
+          would like to have me come along and share my knowledge in Branding,
+          Websites and SEO, or even about agency culture, or business growth -
+          I'd love to be involved. Send me an email to: hello@madebyshape.co.uk
+          with the Subject title as 'Andy, do you wanna come on our podcast?"
+          Enjoy the rest of your week.
+        </p>
+
+        <section
+          class="mt-10 flex flex-col gap-3 md:flex-row md:justify-between"
+        >
+          <!-- Post author -->
+          <div class="gap-3 flex">
+            <div class="image">
+              <img src="images/user.png" alt="" />
+            </div>
+
+            <div class="author-info">
+              <small>Written by</small>
+              <p>Kewa Blay</p>
+              <small>Co-founder</small>
+            </div>
+          </div>
+
+          <p class="md:w-[50%]">
+            Co-Founder of MadeByShape. Most of my blogs are about business
+            related aspects, not just web design.
+          </p>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
